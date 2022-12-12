@@ -1,0 +1,1187 @@
+@media screen and (min-width: 1680px) and (orientation: landscape){
+    *{
+        font-family: gotham-light,Sans-serif;
+        scrollbar-width: none;
+        scrollbar-color: #1c1c1c transparent;
+    }
+    
+    /* Firefox */
+    * {
+        scrollbar-width: none;
+        scrollbar-color: #1c1c1c transparent;
+      }
+    
+    /* Chrome, Edge, and Safari */
+    *::-webkit-scrollbar {
+        width: 9px;
+      }
+    
+      *::-webkit-scrollbar-track {
+        background: transparent;
+      }
+    
+      *::-webkit-scrollbar-thumb {
+        background-color: #1c1c1c;
+        border-radius: 25px;
+        border: 0px none transparent;
+      }
+
+    body{
+        height: 100vh;
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 1000px;
+            height: 520px;
+            margin: 0 auto;
+            margin-top: 8%;
+            padding: 10px;
+            background-color: white;
+        }
+
+        #content_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #date_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #weather_data{
+            width: 677px;
+            height: 450px;
+            float: left;
+            background-image: url(../img/girl_milenium_web_background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #milenium_logo img{
+            width: 380px;
+            height: 130px;
+            margin-top: 20px;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #iframe_fb{
+            width: 323px;
+            height: 450px;
+            float: left;
+        }
+
+        #buttons_align{
+            width: 950px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #g_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            float: left;
+        }
+
+        #a_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #w_number img{
+            width: 300px;
+            height: 48px;
+            margin-top: 12px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #rp_streaming img{
+            width: 400px;
+            height: 40px;
+            margin-top: 18px;
+            float: right;
+        }
+
+        /*--end_web_content_box--*/
+
+    .web_footer{
+        width: 100%;
+        height: 15vh;
+        margin-top: 20vh;
+        background-color: white;
+    }
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        width: 100%;
+        height: 100px;
+        background: black;
+    }
+
+    .resp-iframe {
+        width: 100%;
+        height: 100%;
+    }
+    /*--end-player_iframe--*/
+}
+
+@media screen and (max-width: 1679px) and (min-width: 1439px) and (orientation: landscape){
+    body{
+        height: 90vh;
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 1000px;
+            height: 520px;
+            margin: 0 auto;
+            margin-top: 8%;
+            padding: 10px;
+            background-color: white;
+        }
+
+        #content_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #date_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #weather_data{
+            width: 677px;
+            height: 450px;
+            float: left;
+            background-image: url(../img/girl_milenium_web_background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #milenium_logo img{
+            width: 380px;
+            height: 130px;
+            margin-top: 20px;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #iframe_fb{
+            width: 323px;
+            height: 450px;
+            float: left;
+        }
+
+        #buttons_align{
+            width: 950px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #g_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            float: left;
+        }
+
+        #a_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #w_number img{
+            width: 300px;
+            height: 48px;
+            margin-top: 12px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #rp_streaming img{
+            width: 400px;
+            height: 40px;
+            margin-top: 18px;
+            float: right;
+        }
+
+        /*--end_web_content_box--*/
+
+    .web_footer{
+        width: 100%;
+        height: 15vh;
+        margin-top: 20vh;
+        background-color: white;
+    }
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        width: 100%;
+        height: 100px;
+        background: black;
+    }
+
+    .resp-iframe {
+        width: 100%;
+        height: 100%;
+    }
+    /*--end-player_iframe--*/
+}
+
+
+@media screen and (max-width: 1439px) and (min-width: 1359px) and (orientation: landscape){
+    body{
+        height: 90vh;
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 1000px;
+            height: 520px;
+            margin: 0 auto;
+            margin-top: 0.8%;
+            padding: 10px;
+            background-color: white;
+        }
+
+        #content_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #date_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #weather_data{
+            width: 677px;
+            height: 450px;
+            float: left;
+            background-image: url(../img/girl_milenium_web_background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #milenium_logo img{
+            width: 380px;
+            height: 130px;
+            margin-top: 20px;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #iframe_fb{
+            width: 323px;
+            height: 450px;
+            float: left;
+        }
+
+        #buttons_align{
+            width: 950px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #g_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            float: left;
+        }
+
+        #a_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #w_number img{
+            width: 300px;
+            height: 48px;
+            margin-top: 12px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #rp_streaming img{
+            width: 400px;
+            height: 40px;
+            margin-top: 18px;
+            float: right;
+        }
+
+        /*--end_web_content_box--*/
+
+    .web_footer{
+        width: 100%;
+        height: 15vh;
+        margin-top: 4vh;
+        background-color: white;
+    }
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        width: 100%;
+        height: 100px;
+        background: black;
+    }
+
+    .resp-iframe {
+        width: 100%;
+        height: 100%;
+    }
+    /*--end-player_iframe--*/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1177px) and (orientation: landscape){
+    body{
+        height: 90vh;
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 1000px;
+            height: 520px;
+            margin: 0 auto;
+            margin-top: 2%;
+            padding: 10px;
+            background-color: white;
+        }
+
+        #content_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #date_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #weather_data{
+            width: 677px;
+            height: 450px;
+            float: left;
+            background-image: url(../img/girl_milenium_web_background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #milenium_logo img{
+            width: 380px;
+            height: 130px;
+            margin-top: 20px;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #iframe_fb{
+            width: 323px;
+            height: 450px;
+            float: left;
+        }
+
+        #buttons_align{
+            width: 950px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #g_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            float: left;
+        }
+
+        #a_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #w_number img{
+            width: 300px;
+            height: 48px;
+            margin-top: 12px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #rp_streaming img{
+            width: 400px;
+            height: 40px;
+            margin-top: 18px;
+            float: right;
+        }
+
+        /*--end_web_content_box--*/
+
+    .web_footer{
+        width: 100%;
+        height: 15vh;
+        margin-top: 4vh;
+        background-color: white;
+    }
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        width: 100%;
+        height: 100px;
+        background: black;
+    }
+
+    .resp-iframe {
+        width: 100%;
+        height: 100%;
+    }
+    /*--end-player_iframe--*/
+}
+
+@media screen and (max-width: 1177px) and (min-width: 1024px) and (orientation: landscape){
+    body{
+        height: 90vh;
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-size: calc(100%);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 1000px;
+            height: 520px;
+            margin: 0 auto;
+            margin-top: 2%;
+            padding: 10px;
+            background-color: white;
+        }
+
+        #content_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #date_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #weather_data{
+            width: 677px;
+            height: 450px;
+            float: left;
+            background-image: url(../img/girl_milenium_web_background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #milenium_logo img{
+            width: 380px;
+            height: 130px;
+            margin-top: 20px;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #iframe_fb{
+            width: 323px;
+            height: 450px;
+            float: left;
+        }
+
+        #buttons_align{
+            width: 950px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #g_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            float: left;
+        }
+
+        #a_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #w_number img{
+            width: 300px;
+            height: 48px;
+            margin-top: 12px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #rp_streaming img{
+            width: 400px;
+            height: 40px;
+            margin-top: 18px;
+            float: right;
+        }
+
+        /*--end_web_content_box--*/
+
+    .web_footer{
+        width: 100%;
+        height: 15vh;
+        margin-top: 10vh;
+        background-color: white;
+    }
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        width: 100%;
+        height: 100px;
+        background: black;
+    }
+
+    .resp-iframe {
+        width: 100%;
+        height: 100%;
+    }
+    /*--end-player_iframe--*/
+}
+
+@media screen and (max-width: 1439px) and (min-width: 1359px) and (orientation: landscape){
+    body{
+        height: 90vh;
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-size: calc(100%);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 1000px;
+            height: 520px;
+            margin: 0 auto;
+            margin-top: 0.8%;
+            padding: 10px;
+            background-color: white;
+        }
+
+        #content_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #date_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #weather_data{
+            width: 677px;
+            height: 450px;
+            float: left;
+            background-image: url(../img/girl_milenium_web_background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #milenium_logo img{
+            width: 380px;
+            height: 130px;
+            margin-top: 20px;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #iframe_fb{
+            width: 323px;
+            height: 450px;
+            float: left;
+        }
+
+        #buttons_align{
+            width: 950px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #g_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            float: left;
+        }
+
+        #a_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #w_number img{
+            width: 300px;
+            height: 48px;
+            margin-top: 12px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #rp_streaming img{
+            width: 400px;
+            height: 40px;
+            margin-top: 18px;
+            float: right;
+        }
+
+        /*--end_web_content_box--*/
+
+    .web_footer{
+        width: 100%;
+        height: 15vh;
+        margin-top: 4vh;
+        background-color: white;
+    }
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        width: 100%;
+        height: 100px;
+        background: black;
+    }
+
+    .resp-iframe {
+        width: 100%;
+        height: 100%;
+    }
+    /*--end-player_iframe--*/
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1177px) and (orientation: landscape){
+    body{
+        height: 90vh;
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-size: calc(100%);
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 1000px;
+            height: 520px;
+            margin: 0 auto;
+            margin-top: 2%;
+            padding: 10px;
+            background-color: white;
+        }
+
+        #content_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #date_align{
+            width: 1000px;
+            height: 450px;
+        }
+
+        #weather_data{
+            width: 677px;
+            height: 450px;
+            float: left;
+            background-image: url(../img/girl_milenium_web_background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #milenium_logo img{
+            width: 380px;
+            height: 130px;
+            margin-top: 20px;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            margin-top: 30px;
+            margin-left: 50px;
+        }
+
+        #iframe_fb{
+            width: 323px;
+            height: 450px;
+            float: left;
+        }
+
+        #buttons_align{
+            width: 950px;
+            height: 70px;
+            margin: 0 auto;
+            background-color: white;
+        }
+
+        #g_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            float: left;
+        }
+
+        #a_store img{
+            width: 45px;
+            height: 50px;
+            margin-top: 10px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #w_number img{
+            width: 300px;
+            height: 48px;
+            margin-top: 12px;
+            margin-left: 55px;
+            float: left;
+        }
+
+        #rp_streaming img{
+            width: 400px;
+            height: 40px;
+            margin-top: 18px;
+            float: right;
+        }
+
+        /*--end_web_content_box--*/
+
+    .web_footer{
+        width: 100%;
+        height: 15vh;
+        margin-top: 4vh;
+        background-color: white;
+    }
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        width: 100%;
+        height: 100px;
+        background: black;
+    }
+
+    .resp-iframe {
+        width: 100%;
+        height: 100%;
+    }
+    /*--end-player_iframe--*/
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape){
+    body{
+        height: 90vh;
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-size: calc(150%);
+        background-position: top center;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 600px;
+            height: 300px;
+            margin: 0 auto;
+            margin-top: 5%;
+            padding: 5px;
+            background-color: white;
+        }
+
+        #content_align{
+            width: 600px;
+            height: 300px;
+        }
+
+        #date_align{
+            width: 600px;
+            height: 300px;
+        }
+
+        #weather_data{
+            width: 600px;
+            height: 300px;
+            background-image: url(../img/girl_milenium_web_background.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        #milenium_logo img{
+            width: 300px;
+            height: 110px;
+
+            margin-top: 20px;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            margin-left: 20px;
+        }
+
+        #iframe_fb{
+            display: none;
+        }
+
+        #buttons_align{
+            display: none;
+        }
+
+        #g_store img{
+            display: none;
+        }
+
+        #a_store img{
+            display: none;
+        }
+
+        #w_number img{
+            display: none;
+        }
+
+
+        #rp_streaming img{
+            display: none;
+        }
+        /*--end_web_content_box--*/
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        width: 100%;
+        height: 100px;
+        background: black;
+    }
+
+    .resp-iframe {
+        width: 100%;
+        height: 100%;
+    }
+    /*--end-player_iframe--*/
+}
+
+@media screen and (orientation: portrait){  
+    *{
+        font-family: gotham-light,Sans-serif;
+    }
+    
+    body{
+        padding:0;
+        margin:0;
+        background-image: url(../img/BACKGROUND.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    /*--web_content--*/
+    .container_web_elements{
+        width: auto;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+        /*--web_content_box--*/
+        #content_box{
+            width: 40vw;
+            height: auto;
+            margin: 0 auto;
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+
+            border-radius: 0 0 100vh 100vh;
+
+            background-color: #1c1c1c;
+        }
+
+        #content_align{
+            width: 40vw;
+            height: 20vh;
+        }
+
+        #date_align{
+            width: 40vw;
+            height: 20vh;
+        }
+
+        #weather_data{
+            width: 40vw;
+            height: 20vh;
+        }
+
+        #milenium_logo{
+            width: 35vw;
+            height: 20vh;
+
+            margin: 0 auto;
+
+            background-image: url(../img/logo_play.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+        }
+
+        #milenium_logo img{
+            display: none;
+        }
+
+        #TT_JuyArxYhYI2rdGOAKAurxLxrB1aATAhlLt1dksiIKEz{
+            display: none;
+        }
+
+        #iframe_fb{
+            display: none;
+        }
+
+        #buttons_align{
+            width: auto;
+            height: auto;
+        }
+
+        #g_store{
+            width: 20vw;
+            height: 10vh;
+            
+            margin: 0 auto;
+            margin-top: 20%;
+
+            background-image: url(../img/g_play_mv.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #g_store img{
+            display: none;
+        }
+
+        #a_store{
+            width: 20vw;
+            height: 10vh;
+            
+            margin: 0 auto;
+            margin-top: 10%;
+
+            background-image: url(../img/a_store_mv.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #a_store img{
+            display: none;
+        }
+
+        #w_number{
+            width: 20vw;
+            height: 10vh;
+            
+            margin: 0 auto;
+            margin-top: 10%;
+
+            background-image: url(../img/whp_lg_mv.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #w_number img{
+            display: none;
+        }
+
+        #rp_streaming{
+            width: 25vw;
+            height: 8vh;
+
+            margin: 0 auto;
+            margin-top: 10%;
+
+            margin-bottom: 20%;
+            
+            background-image: url(../img/rp_lg_mv.png);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        #rp_streaming img{
+            display: none;
+        }
+
+        /*--end_web_content_box--*/
+
+    .web_footer{
+        display: none;
+    }
+    /*--end_web_content--*/
+            
+    /*--player_iframe--*/
+    .player_container{
+        display: none;
+    }
+
+    .resp-iframe {
+        display: none;
+    }
+    /*--end-player_iframe--*/
+}
